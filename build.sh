@@ -1,2 +1,4 @@
 #!/bin/bash
-docker build --rm=true --tag opengldocker .
+source vars.sh
+docker build --rm=true --tag $DOCKEROPENGLTAGNAME .
+
